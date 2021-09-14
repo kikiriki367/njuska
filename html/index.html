@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Njuska</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"> //linkuje jquerry
+    </script>
+    <script src="../java/index.js"></script>
+</head>
+
+<header>
+    <div class="logo-container">
+        <img src="../slike/logos/dognose.png" alt="logo" class= "logo">
+        <h3> Dobrodošli u pet spa <br> VESELA NJUŠKA</h3>
+    </div>
+    <nav>
+        <ul class="nav-linkovi">
+            <li><a class="nav-link" href="index.html">Pocetna</a></li>
+            <li><a class="nav-link" href="onama.html">O nama</a></li>
+            <li><a class="nav-link" href="usluge.html">Usluge</a></li>
+            <li><a class="nav-link" href="prodavnica.html">Prodavnica</a></li>
+            <li><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <section class="index-main">
+            <div class="index-uvod">
+                <div class="uvodni-text">
+                    <br>PET SPA "Vesela njuška" Vašim krznenim drugarima pruža najkvalitetnije usluge i proizvode već vise od 5 godina.
+                    <br>Uz nas je sređivanje ljubimaca zabavno i lako, jer koristimo najbolje proizvode i usluge pružaju obučeni i
+                    prijatni radnici našeg salona. <br>Jako nam je važno da se sa nama Vaši ljubimci osećaju slobodno i bezbedno i da po
+                    izlasku iz našeg salona budu srećni i zadovoljni - i ljubimac i vlasnik.
+                </div>
+                <div class="dugmici">
+                    <button class="dugmici-daycare" onclick="boy()">GOOD BOY</button>
+                    <button class="dugmici-boarding" onclick="girl()">GOOD GIRL</button>
+                </div>
+            </div>
+    
+            <div class="slike">
+                <div class = "slider-outer">
+                    <img src ="../slike/slider/strelice.png" id="srelica" class="prev" alt = "Prev">
+                    <div class="slider-inner">
+                        <img src="../slike/slider/prva.jpg" class="active">
+                        <img src="../slike/slider/druga.jpg">
+                        <img src="../slike/slider/treca.png">
+                        <img src="../slike/slider/cetvrta.png">
+                    </div>
+                    <img src ="../slike/slider/strelice.png" id="srelica" class="next" alt = "Next">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <ul class="social-container"> 
+                <li><img src="../slike/logos/instagramlogo.png" class="footer-logo">www.instagram.com/veselanjuska</li>
+        
+                <li><img src="../slike/logos/facelogo.png" class="footer-logo">www.facebook.com/VeselaNjuska</li>
+        
+                <li><img src="../slike/logos/twitlogo.jpg" class="footer-logo">www.twitter.com/vesela_njuska</li>
+            </ul>
+        </footer>
+
+</body>
+

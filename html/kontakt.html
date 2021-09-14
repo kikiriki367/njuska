@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Njuska</title>
+    <link rel="stylesheet" type="text/css" href="../css/kontakt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<header>
+    <div class="logo-container">
+        <img src="../slike/logos/dognose.png" alt="logo" class="logo">
+        <h3> Dobrodošli u pet spa <br> VESELA NJUŠKA</h3>
+    </div>
+    <nav>
+        <ul class="nav-linkovi">
+            <li><a class="nav-link" href="index.html">Pocetna</a></li>
+            <li><a class="nav-link" href="onama.html">O nama</a></li>
+            <li><a class="nav-link" href="usluge.html">Usluge</a></li>
+            <li><a class="nav-link" href="prodavnica.html">Prodavnica</a></li>
+            <li><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div id="forma">
+        <script src="../java/kontakt.js"></script>
+        <title>KONTAKT</title>
+        <h2>Ostavite Vas utisak:</h2>
+
+        <form class="form" name="formular" action="#" onsubmit="required()">
+            <label><b>Vase ime:</b> </label> <br>
+            <input type="text" name='imeVrednost' class="input"> <br>
+
+            <label><b>Vas utisak:</b></label> <br>
+            <textarea rows="5 " cols="20" placeholder="Vas opis..." name='opisText'></textarea> <br>
+
+            <label><b>Ocena:</b></label> <br>
+            <select>
+                <option value="10">10</option>
+                <option value="deset"> deset</option>
+                <option value="desetka"> desetka</option>
+                <option value="10/10"> 10/10</option>
+                <option value="najbloji sajt ikada"> najbloji sajt ikada</option>
+
+            </select>
+            <br>
+
+            <label><b>Vas e-mail:</b></label> <br>
+            <input type="email" class="input" name="email">
+            <br>
+
+            <input type="submit" name="submit" value="Potvrdi" class="button" />
+
+        </form>
+
+        <div class="output">
+            <script>
+                var now = new Date();
+                document.write("<font size='+1'>");
+                var hours = now.getHours();
+                var minutes = now.getMinutes();
+                var month = now.getMonth() + 1;
+                var day = now.getDate();
+                var year = now.getFullYear();
+                document.write("<br>Datum je: " + day + ":" + month + ":" + year);
+                if(minutes < 10){
+                    document.write("<br>Vreme je: " + hours + ":0" + minutes); 
+                }else{
+                document.write("<br>Vreme je: " + hours + ":" + minutes);
+                }
+                document.write("</font>");
+            </script>
+        </div>
+    </div>
+    <div id ="animacija">
+        <h1 class="ljubimci">ljubimci</h1>
+        <h2 id="dobrodosli">Svi su dobrodosli!!!</h2>
+    </div>
+
+    <script src="../java/ljubimci.js"></script> 
+
+
+</body>

@@ -1,0 +1,92 @@
+/* <>==<>==GENERALNI IZGLED ZA SVE STRANICE==<>==<>*/
+body {
+    font-family: "Nerko One", cursive;
+    background-color: rgb(255, 236, 214);
+    min-height: 100vh;
+  }
+  header {
+    background-color: rgb(255, 170, 94);
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+  }
+  nav {
+    flex: 5;
+  }
+  
+  h2 {
+    color: rgb(129, 51, 51);
+  }
+  h1 {
+    color: maroon;
+  }
+  button {
+    font-family: "Nerko One", cursive;
+  }
+  /*LOGO*/
+  .logo-container {
+    display: flex;
+    flex: 1;
+    text-align: justify;
+  }
+  .logo{
+    height: 75px; 
+    margin-top: 5px; 
+    font-weight: lighter;
+  }
+  /*LINKOVI*/
+  .nav-linkovi {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: rgba(129, 51, 51, 0.87);
+    font-size: 18px;
+    text-decoration: maroon;
+  }
+  
+  /*FOOTER*/
+  
+  footer{  
+    width: 90%;
+    margin: auto;
+    height:60px;
+    background:rgb(255, 170, 94);
+  }
+  
+  .social-container {  
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+  }
+  
+  .footer-logo {
+    height: 50px;
+    width: 50px;
+  }
+  /*<>==<>=================<>==<>*/
+
+  /*O NAMA*/
+  
+  .tim-slike{
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+  }
+  
+  .tim-slika{
+    margin-top: 20px;
+    height: 330px;
+    width: 330px;
+    border: rgb(117, 23, 23);
+  }
+
+  .tim-tekst{
+    word-wrap: break-word;
+    width: 330px;
+    margin-left: 100px;
+  }

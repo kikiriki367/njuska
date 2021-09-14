@@ -1,0 +1,121 @@
+/* <>==<>==GENERALNI IZGLED ZA SVE STRANICE==<>==<>*/
+body {
+    font-family: "Nerko One", cursive;
+    background-color: rgb(255, 236, 214);
+    min-height: 100vh;
+  }
+  header {
+    background-color: rgb(255, 170, 94);
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+  }
+  nav {
+    flex: 5;
+  }
+  
+  h2 {
+    color: rgb(129, 51, 51);
+  }
+  h1 {
+    color: maroon;
+  }
+  button {
+    font-family: "Nerko One", cursive;
+  }
+  /*LOGO*/
+  .logo-container {
+    display: flex;
+    flex: 1;
+    text-align: justify;
+  }
+  .logo{
+    height: 75px; 
+    margin-top: 5px; 
+    font-weight: lighter;
+  }
+  /*LINKOVI*/
+  .nav-linkovi {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: rgba(129, 51, 51, 0.87);
+    font-size: 18px;
+    text-decoration: maroon;
+  }
+  
+  /*FOOTER*/
+  
+  footer{  
+    width: 90%;
+    margin: auto;
+    height:60px;
+    background:rgb(255, 170, 94);
+  }
+  
+  .social-container {  
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+  }
+  
+  .footer-logo {
+    height: 50px;
+    width: 50px;
+  }
+  /*<>==<>=================<>==<>*/
+
+/*INDEX*/
+.index-main {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+  }
+  
+  .index-uvod {
+    flex: 1;
+  }
+  .uvodni-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+  }
+  .uvodni-text {
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: left;
+    text-overflow: clip;
+    text-shadow: darkslategrey;
+    text-decoration: brown;
+  }
+  /*INDEX*/
+  
+  .slider-inner{
+    width: 560px;
+    height: 315px;
+    float: right;
+  }
+
+  .slider-inner img{
+    width: 560px;
+    height: 315px;
+    display: none;
+
+  }
+
+.slider-inner img.active{
+  display: inline-block;
+}
+
+.prev, .next{
+  margin-top: 160px;
+  cursor: pointer;
+}
+
+
