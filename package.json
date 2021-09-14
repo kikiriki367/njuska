@@ -1,0 +1,16 @@
+{
+  "name": "njuska",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d HtmlStranica"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://kikiriki367.github.io/njuska",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
